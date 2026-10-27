@@ -57,8 +57,9 @@ contains `TwoMS1`-`TwoMS10`, `TwoMM1`-`TwoMM10` (no `TwoMM8`) and
    cantenna_dop_v3_CA_CFAR('TwoMF1.wav')
    ```
 
-   Alternatively, edit the `wavFile_CW_All` list and `RecordingNo2Process`
-   in `Processing_recordings.m`, then run that script.
+   Alternatively, run `Processing_recordings.m`. It adds `data` to the path
+   itself and lists all 29 recordings; set `RecordingNo2Process` (1 to 29)
+   to choose which one is processed.
 
 ### Output
 
